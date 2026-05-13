@@ -1,0 +1,48 @@
+{
+  "name": "@entelligentsia/pi-claude-compat",
+  "version": "1.0.0",
+  "description": "Claude CLI compatibility layer for pi — loads .claude/commands and .claude/skills as native pi resources",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "coding-agent",
+    "claude",
+    "claude-code",
+    "compat",
+    "commands",
+    "slash-commands",
+    "skills"
+  ],
+  "scripts": {
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "tsc --noEmit"
+  },
+  "author": "entelligentsia",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "extensions",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  },
+  "peerDependenciesMeta": {
+    "@mariozechner/pi-coding-agent": { "optional": true },
+    "@mariozechner/pi-tui": { "optional": true }
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "^0.64.0",
+    "@mariozechner/pi-tui": "^0.64.0",
+    "@types/node": "^22.19.15",
+    "typescript": "^5.9.3"
+  }
+}
