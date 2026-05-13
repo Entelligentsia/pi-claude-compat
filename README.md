@@ -18,7 +18,7 @@ pi install npm:pi-claude-compat
 Or from git:
 
 ```bash
-pi install https://github.com/your-username/pi-claude-compat
+pi install git:github.com/Entelligentsia/pi-claude-compat
 ```
 
 Then `/reload` in pi.
