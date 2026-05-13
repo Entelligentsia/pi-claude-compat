@@ -21,6 +21,14 @@
   "author": "entelligentsia",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Entelligentsia/pi-claude-compat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Entelligentsia/pi-claude-compat/issues"
+  },
+  "homepage": "https://github.com/Entelligentsia/pi-claude-compat#readme",
   "files": [
     "extensions",
     "README.md",
